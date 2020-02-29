@@ -66,6 +66,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Featu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.Social", "src\Feature\Social\code\Hackathon.Boilerplate.Feature.Social.csproj", "{61D46827-4195-4D25-8F2D-CA68C3F81029}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{AC213F3E-EE3B-460E-BE15-2FA7226E44ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Foundation.Search", "src\Foundation\Search\code\Hackathon.Boilerplate.Foundation.Search.csproj", "{AF169EEF-5937-4271-90D6-79716FBA4229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +108,10 @@ Global
 		{61D46827-4195-4D25-8F2D-CA68C3F81029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61D46827-4195-4D25-8F2D-CA68C3F81029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61D46827-4195-4D25-8F2D-CA68C3F81029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF169EEF-5937-4271-90D6-79716FBA4229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF169EEF-5937-4271-90D6-79716FBA4229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF169EEF-5937-4271-90D6-79716FBA4229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF169EEF-5937-4271-90D6-79716FBA4229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +134,8 @@ Global
 		{2E72F113-8CF7-4762-8887-B067A8627F45} = {3E5C186E-EFCA-45DC-8C3F-53F111C57B29}
 		{F041CC67-D603-47D3-B7FB-2E9DD393B670} = {DC68C7B7-41CE-4301-9640-5EA46AAB980D}
 		{61D46827-4195-4D25-8F2D-CA68C3F81029} = {2E0906E7-BEEC-4E2F-8144-DBFC45322871}
+		{AC213F3E-EE3B-460E-BE15-2FA7226E44ED} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{AF169EEF-5937-4271-90D6-79716FBA4229} = {AC213F3E-EE3B-460E-BE15-2FA7226E44ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}

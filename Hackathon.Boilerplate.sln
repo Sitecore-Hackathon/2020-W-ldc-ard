@@ -38,6 +38,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\Hackathon.Boilerplate.Foundation.DependencyInjection.csproj", "{2EBE8089-A0AF-4485-8C4E-A6C046197A63}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Account", "Account", "{0B6ED4A8-CA7F-4782-8A0B-7B8AA9AB310A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Account", "Account", "{8D84E0D3-A5A5-48BA-B9E7-F5DAA59B2A01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event", "Event", "{448BE9A2-7FD2-4ED9-AE1A-6AD58833F5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.Account", "src\Feature\Account\code\Hackathon.Boilerplate.Feature.Account.csproj", "{32B504EE-FB6E-42E4-ADE7-CB0B134B6292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.Event", "src\Feature\Event\code\Hackathon.Boilerplate.Feature.Event.csproj", "{D7A7BAAB-CE22-4A3C-8143-DE2CAC71BD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Foundation.Account", "src\Foundation\Account\code\Hackathon.Boilerplate.Foundation.Account.csproj", "{A768A475-F308-4CD9-8043-9646B368FF87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +60,18 @@ Global
 		{2EBE8089-A0AF-4485-8C4E-A6C046197A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EBE8089-A0AF-4485-8C4E-A6C046197A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EBE8089-A0AF-4485-8C4E-A6C046197A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B504EE-FB6E-42E4-ADE7-CB0B134B6292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B504EE-FB6E-42E4-ADE7-CB0B134B6292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B504EE-FB6E-42E4-ADE7-CB0B134B6292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B504EE-FB6E-42E4-ADE7-CB0B134B6292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A7BAAB-CE22-4A3C-8143-DE2CAC71BD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A7BAAB-CE22-4A3C-8143-DE2CAC71BD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A7BAAB-CE22-4A3C-8143-DE2CAC71BD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A7BAAB-CE22-4A3C-8143-DE2CAC71BD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A768A475-F308-4CD9-8043-9646B368FF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A768A475-F308-4CD9-8043-9646B368FF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A768A475-F308-4CD9-8043-9646B368FF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A768A475-F308-4CD9-8043-9646B368FF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +80,12 @@ Global
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
 		{1497697F-4715-44BB-A9E2-88D4686A20DD} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
 		{2EBE8089-A0AF-4485-8C4E-A6C046197A63} = {1497697F-4715-44BB-A9E2-88D4686A20DD}
+		{0B6ED4A8-CA7F-4782-8A0B-7B8AA9AB310A} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{8D84E0D3-A5A5-48BA-B9E7-F5DAA59B2A01} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{448BE9A2-7FD2-4ED9-AE1A-6AD58833F5C7} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{32B504EE-FB6E-42E4-ADE7-CB0B134B6292} = {0B6ED4A8-CA7F-4782-8A0B-7B8AA9AB310A}
+		{D7A7BAAB-CE22-4A3C-8143-DE2CAC71BD21} = {448BE9A2-7FD2-4ED9-AE1A-6AD58833F5C7}
+		{A768A475-F308-4CD9-8043-9646B368FF87} = {8D84E0D3-A5A5-48BA-B9E7-F5DAA59B2A01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}

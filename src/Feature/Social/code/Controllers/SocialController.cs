@@ -19,7 +19,7 @@ namespace Hackathon.Boilerplate.Feature.Social.Controllers
         }
         public override ActionResult Index()
         {
-            return View("", this.GetModel());
+            return View("~/Views/Feature/Event/SocialShare.cshtml", this.GetModel());
         }
     }
 }

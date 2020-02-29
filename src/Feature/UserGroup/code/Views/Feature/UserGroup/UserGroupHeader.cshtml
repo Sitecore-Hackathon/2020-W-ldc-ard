@@ -1,0 +1,23 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Fields
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@model Hackathon.Boilerplate.Feature.UserGroup.Models.UserGroupHeader
+
+<div @Html.Sxa().Component("UserGroup-Header", Model.Attributes)>
+    <div class="component-content">
+        @if(Model != null)
+        {
+            <div>
+                <img src="@Model.UserGroupLocationIcon"/><p>@Model.UserGroupLocation</p>
+            </div>
+            <div>
+                <img src="@Model.UserGroupMemberIcon"/><p>@Model.UserGroupMembers</p>
+            </div>
+            <div>
+                <img src="@Model.UserGroupOrganiserICon"/><p>@Model.UserGroupOrganizer</p>
+            </div>
+        }
+    </div>
+</div>

@@ -64,7 +64,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Featu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.PageContent", "src\Feature\Page Content\code\Hackathon.Boilerplate.Feature.PageContent.csproj", "{F041CC67-D603-47D3-B7FB-2E9DD393B670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.Share", "src\Feature\Social\code\Hackathon.Boilerplate.Feature.Share.csproj", "{61D46827-4195-4D25-8F2D-CA68C3F81029}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.Social", "src\Feature\Social\code\Hackathon.Boilerplate.Feature.Social.csproj", "{61D46827-4195-4D25-8F2D-CA68C3F81029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

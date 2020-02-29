@@ -100,7 +100,7 @@
     <Folder Include="App_Config\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Reepositories\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Sitecore.Kernel">

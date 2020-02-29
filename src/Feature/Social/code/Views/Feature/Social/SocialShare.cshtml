@@ -1,0 +1,15 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Fields
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@model Hackathon.Boilerplate.Feature.Social.Models.ShareIconModel
+
+<div @Html.Sxa().Component("SocialShare", Model.Attributes)>
+    <div class="component-content">
+        @if (Model != null)
+        {
+            <div class="sharethis-inline-share-buttons"></div>
+        }
+    </div>
+</div>

@@ -58,6 +58,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Featu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.UserGroup", "src\Feature\UserGroup\code\Hackathon.Boilerplate.Feature.UserGroup.csproj", "{FDEEBDFC-49ED-4B04-A175-C87D5CD49E13}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gallery", "Gallery", "{3E5C186E-EFCA-45DC-8C3F-53F111C57B29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Page Content", "Page Content", "{DC68C7B7-41CE-4301-9640-5EA46AAB980D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.Gallery", "src\Feature\Gallery\code\Hackathon.Boilerplate.Feature.Gallery.csproj", "{2E72F113-8CF7-4762-8887-B067A8627F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon.Boilerplate.Feature.PageContent", "src\Feature\Page Content\code\Hackathon.Boilerplate.Feature.PageContent.csproj", "{F041CC67-D603-47D3-B7FB-2E9DD393B670}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +96,14 @@ Global
 		{FDEEBDFC-49ED-4B04-A175-C87D5CD49E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDEEBDFC-49ED-4B04-A175-C87D5CD49E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDEEBDFC-49ED-4B04-A175-C87D5CD49E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E72F113-8CF7-4762-8887-B067A8627F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E72F113-8CF7-4762-8887-B067A8627F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E72F113-8CF7-4762-8887-B067A8627F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E72F113-8CF7-4762-8887-B067A8627F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F041CC67-D603-47D3-B7FB-2E9DD393B670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F041CC67-D603-47D3-B7FB-2E9DD393B670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F041CC67-D603-47D3-B7FB-2E9DD393B670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F041CC67-D603-47D3-B7FB-2E9DD393B670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +122,10 @@ Global
 		{6154548E-5310-403E-8731-372A7632E4DC} = {17DD5718-6E13-4F2C-9738-B410396D4552}
 		{61D46827-4195-4D25-8F2D-CA68C3F81029} = {2E0906E7-BEEC-4E2F-8144-DBFC45322871}
 		{FDEEBDFC-49ED-4B04-A175-C87D5CD49E13} = {6154548E-5310-403E-8731-372A7632E4DC}
+		{3E5C186E-EFCA-45DC-8C3F-53F111C57B29} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{DC68C7B7-41CE-4301-9640-5EA46AAB980D} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{2E72F113-8CF7-4762-8887-B067A8627F45} = {3E5C186E-EFCA-45DC-8C3F-53F111C57B29}
+		{F041CC67-D603-47D3-B7FB-2E9DD393B670} = {DC68C7B7-41CE-4301-9640-5EA46AAB980D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
